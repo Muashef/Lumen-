@@ -102,18 +102,14 @@ footer{
     color: #3C1361;
 }
 
-/* footer h4{
-    border-bottom: 1px #3C1361 solid;
-} */
+.footer-wrapper a{
+    color: #3C1361;
+}
 
-/* .contact, .social, .help, .features, .others{
-    border-right: 2px #3C1361 solid;
-} */
+
 
 .divider {
     border-right: 2px solid #3C1361;
-    /* margin: 10px 0; */
-    /* clear: right; */
   }
 
   .lg {
