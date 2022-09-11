@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #3C1361;
+    height: 80px;
+}
+
+.navbar-brand{
+    color:#BCA0DB;
+}
+
+.active{
+    color: #fff!important;
+}
+
+.nav-item{
+    margin-right: 26px;
+    font-size: 16px;
+    
+}
+
+.nav-link{
+    color: #BCA0DB;
+}
+
+
+/* Main */
+
+.previous-page i{
+    background-color: #BCA0DB;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.two-btns{
+    margin-top: 380px;
+}
+
+.review-intention a{
+    background-color: #BCA0DB;
+    padding: 9px 170px;
+    color: #000;
+    font-size: 1.20rem;
+    border-radius: 5px;
+  }
+
+  .another-intention a{
+    background-color: #3C1361;
+    padding: 9px 130px;
+    color: #fff;
+    font-size: 1.20rem;
+    border-radius: 5px;
+  }
+
+  /* FOOTER */
+  section{
+    background-color: #EEDFFF;
+    margin-top: 120px;
+  }
+
+  .mini-footer p{
+    font-size:0.80rem;
+  }
+
+  footer{
+    background-color: #BCA0DB;
+    color: #3C1361;
+}
+
+.footer-wrapper a{
+    color: #3C1361;
+}
+
+.divider {
+    border-right: 2px solid #3C1361;
+  }
+
+  .lg {
+    height: 100px;
+  }

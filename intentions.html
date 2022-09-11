@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/intentions.css">
+    <title>Intentions</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bold" href="#">LUMEN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="intentions.html">Intentions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Donate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonies</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <div class="main-section">
+        <div class="container">
+            <p class="fill mt-4 fs-6 fw-bold text-black">Please fill the details below to send your mass intentions:</p>
+
+            <div class="form-section">
+                <div class="form-wrapper">
+                    <div class="petit mb-2">
+                        <label for="peitioner" class="d-block">Petitioner</label>
+                        <input type="text" class="title-input" placeholder="Title">
+                        <input type="text" class="fname" placeholder="Full name">
+                    </div>
+                    <div class="request mb-2">
+                        <label for="peitioner" class="d-block">Prayer Request</label>
+                        <select name="request" class="select1" id="request">
+                            <option value="">Select an option</option>
+                            <option value="">God, I want Money!</option>
+                            <option value="">God, I want to build house!</option>
+                            <option value="">God, I want to marry!</option>
+                        </select>
+                        <input type="text" placeholder="If others, please input your special intentions">
+                    </div>
+                    <div class="date">
+                        <label for="peitioner" class="d-block">Number of Days</label>
+                        <label for="from" class="fs-6 me-2">From:</label>
+                        <input type="date" class="me-3" placeholder="DD/MM/YYYY">
+                        <label for="to" class="fs-6 me-2">To:</label>
+                        <input type="date" placeholder="DD/MM/YYYY">
+                        <p class="text-black fw-bold fst-italic mb-3">Total Number of Days: 5days</p>
+                    </div>
+                    <div class="Amount">
+                        <label for="peitioner" class="d-block">Amount per Day</label>
+                        <input type="number" class="amount" placeholder="NGN0.00">
+                        <p class="text-black fw-bold fst-italic mb-3">Total Amount:   NGN2500.00</p>
+                        <p class="code">Unique Code: LM4qr567FGH</p>
+                    </div>
+
+                    <div class="parish mb-3">
+                        <label for="peitioner" class="d-block">Parish</label>
+                        <select name="parish" class="select2" id="parish">
+                            <option value="">Select Parish you would like to send this to</option>
+                            <option value="">Ikosi</option>
+                            <option value="">Motorways</option>
+                            <option value="">ilupeju</option>
+                        </select>
+                    </div>
+
+                    <div class="time">
+                        <label for="peitioner" class="d-block">Kindly input the prayer time:</label>
+                        <select name="parish" class="select2" id="parish">
+                            <option value="">Select an option</option>
+                            <option value="">1am</option>
+                            <option value="">6pm</option>
+                            <option value="">10pm</option>
+                        </select>
+                        <p class="text-black fw-bold fst-italic">Prayer time:   Sunday, Third Mass</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-details mt-2">
+                <div class="details-wrapper">
+                    <p class="fw-bold fs-5">Please include the unique code indicated above in your narration for verification purposes. Kindly confirm you have the right account before sending;</p>
+                    <p>Account Details: St. Peters Parish, Obanikoro, Ilupeju, Lagos.</p>
+                    <p>Account Number: 003567896489</p>
+                    <p>Account Name: St. Peter Parish</p>
+                    <p>Bank Name: Zenith Bank</p>
+                </div>
+            </div>
+
+            <label for="receipt" class="recipt d-block mt-3">Receipt of Payment</label>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Upload Receipt" aria-label="Receipt" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">Upload</span>
+           </div>
+
+           <div class="submit-intention d-flex align-items-center justify-content-center mt-4">
+            <a href="int-submit.html" class="text-decoration-none">SUBMIT INTENTIONS</a>
+           </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <section>
+      <div class="container">
+        <div class="mini-footer text-center py-1">
+          <p class="text-black fw-bold">Please take a few minutes to fill out our feedback form. This is so we can make this an effective platform for you. YOU are important to us. <a href="#" class="text-decoration-none">CLICK HERE TO FILL IN THE SURVEY</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper d-flex justify-content-between align-items-center py-4">
+          <div class="contact">
+            <h4 class="text-decoration-underline">contact us</h4>
+            <p> <a href="#" class="text-decoration-none"> info@lumen.com.ng <br> mail@lumennigeria.com <br> (+234)80987654321, 9076589733 </a></p>
+          </div>
+          <div class="divider lg"></div>
+          <div class="social">
+            <h4 class="text-decoration-underline">social media</h4>
+            <p> <a href="#" class="text-decoration-none">instagram - @lumennigeria</a>  <br> <a href="#" class="text-decoration-none">twitter - @lumenng</a>  <br> <a href="#" class="text-decoration-none">facebook - lumennigeria</a> </p>
+          </div>
+          <div class="divider lg"></div>
+          <div class="help">
+            <h4 class="text-decoration-underline">help</h4>
+            <p> <a href="#" class="text-decoration-none"> about us <br> send prayer requests <br> make a donation </a> </p>
+          </div>
+          <div class="divider lg"></div>
+          <div class="features">
+            <h4 class="text-decoration-underline">upcoming features</h4>
+            <p> <a href="#" class="text-decoration-none"> words of encouragement <br> prayers for a friend <br> donation for a cause </a></p>
+          </div>
+          <div class="divider lg"></div>
+          <div class="others">
+            <h4 class="text-decoration-underline">others</h4>
+            <p> <a href="" class="text-decoration-none"> faqs <br> make a report <br> report an issue </a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
