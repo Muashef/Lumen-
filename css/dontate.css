@@ -18,13 +18,13 @@ nav{
 }
 
 .nav-item{
-    margin-right: 26px;
-    font-size: 16px;   
+    margin-right: 33px;
+    font-size: 16px;  
 }
 
 .nav-link:hover{
-  color: #BCA0DB;
-  font-weight: 700;
+    color: #BCA0DB;
+    font-weight: 700;
 }
 
 .nav-link{
@@ -32,87 +32,49 @@ nav{
 }
 
 /* MAIN */
-.main-section .fill{
-    margin-left: 125px;
+
+.main-wrapper{
+    margin-left:200px;
+    margin-top: 60px;
 }
 
-.form-section, .recipt{
-    margin-left:125px;
-}
-
-.title-input{
-    width: 16% !important;
-}
-
-input[type=text]{
-    width: 50%;
-    padding: 7px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #9747FF;
-  }
-
-  .select1{
-    width: 33%;
-    padding: 7px 12px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #9747FF;
-  }
-
-  .fname{
-    width: 67% !important;
-  }
-
-  input[type=date], .amount {
+.amount{
     width: 20%;
     padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #9747FF;
-  }
+}
 
-  .select2{
-    width: 40%;
+label{
+    color: #3C1361;
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+.select1{
+    width: 60%;
     padding: 7px 12px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #9747FF
+    border: 1px solid #9747FF;
   }
 
-  .select1,
-  .select2:hover{
+.payment-details{
     background-color: #9747FF;
-    color: #fff;
-  }
-
-  label{
-    color: #3C1361;
-    font-weight: 700;
-    font-size: 1.25rem;
-  }
-
-  .code{
-    color: #3C1361;
-    font-weight: 800;
-    font-size: 1.10rem;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 12px 22px;
+    width: 88%;
   }
 
   ::placeholder, select{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1rem;
-  }
-
-  .payment-details{
-    background-color: #9747FF;
-    margin-left:125px;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 12px;
+    font-size: 1.08rem;
+    font-weight: 500;
   }
 
   .input-group{
-    width: 80%;
-    margin-left:125px;
+    width: 87%;
+    margin-left:1px;
   }
 
   .input-group-text{
@@ -120,6 +82,13 @@ input[type=text]{
     color: #fff;
     height: 50px;
     cursor: pointer;
+  }
+
+  .select1:hover{
+    background-color: #9747FF;
+    color: #fff;
+    border: 2px solid #9747FF;
+    outline: #9747FF;
   }
 
   .submit-intention a{
@@ -130,8 +99,8 @@ input[type=text]{
     border-radius: 5px;
   }
 
-  /* FOOTER */
-  section{
+/* FOOTER */
+section{
     background-color: #EEDFFF;
     margin-top: 120px;
   }

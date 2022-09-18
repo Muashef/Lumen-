@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/rev-int.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="css/int-submit.css">
-    
     <title>Document</title>
 </head>
 <body>
@@ -24,62 +23,66 @@
                 <a class="nav-link"  href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="about.html">About</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="intentions.html">Intentions</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Donate</a>
+                <a class="nav-link" href="donate.html">Donate</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Testimonies</a>
               </li>
+              <button type="button" class="pray-btn btn btn-primary btn-sm px-3">Let's Pray</button>
+              
+              
             </ul>
             
           </div>
         </div>
     </nav>
 
-    <!-- Main -->
+    <!-- MAIN -->
     <div class="previous-page">
         <div class="container">
             <a href="intentions.html" class="text-black text-decoration-none"><i class="fa-solid fa-arrow-left text-black mt-5 ms-3 me-2"></i>Go back to previous page</a>
-
-            <div class="successfully">
-                <h2 class="text-center mt-5">Your intentions have been submitted successfully!</h2>
-            </div>
         </div>
     </div>
 
-    <div class="check">
+    <div class="current-intention">
         <div class="container">
-            <div class="big-check d-flex align-items-center justify-content-center">
-                <img src="img/big_check.gif" class="img-fluid" alt="">
+            <h2 class="current mb-3">Current Intentions</h2>
+            <div class="intention-box">
+                <h3>Petitioner</h3>
+                <p class="">Miss. Sara Johnson</p>
+                <h3>Prayer Request</h3>
+                <p>Prayer for Health/Healing</p>
+                <h3>Total Number of Days</h3>
+                <p>5 days</p>
+                <h3>Total Amount:</h3>
+                <p>NGN 2500</p>
+                <h3>Parish:</h3>
+                <p>St. Peters Parish, Obanikoro, Ilupeju, Lagos.</p>
+                <h3>Receipt of Payment:</h3>
+                <p>paymentforintention.pdf</p>
             </div>
         </div>
     </div>
 
-    <div class="two-btns">
-        <div class="container">
-            <div class="review-intention d-flex align-items-center justify-content-center mt-4">
-                <a href="rev-int.html" class="text-decoration-none fw-bold">REVIEW INTENTION <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-            </div>
-            <div class="another-intention d-flex align-items-center justify-content-center mt-4">
-                <a href="intentions.html" class="text-decoration-none fw-bold">SEND ANOTHER INTENTION <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-            </div>
-        </div>
+    <div class="submit-intention d-flex align-items-center justify-content-center mt-4">
+        <a href="intentions.html" class="text-decoration-none fw-bold">SEND ANOTHER INTENTION</a>
     </div>
 
-    <!-- FOOTER -->
-    <section>
+     <!-- FOOTER -->
+     <section>
         <div class="container">
           <div class="mini-footer text-center py-1">
             <p class="text-black fw-bold">Please take a few minutes to fill out our feedback form. This is so we can make this an effective platform for you. YOU are important to us. <a href="#" class="text-decoration-none">CLICK HERE TO FILL IN THE SURVEY</a></p>
           </div>
         </div>
       </section>
-
+  
       <footer>
         <div class="container">
           <div class="footer-wrapper d-flex justify-content-between align-items-center py-4">
@@ -110,5 +113,7 @@
           </div>
         </div>
       </footer>
+
+
 </body>
 </html>

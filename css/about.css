@@ -27,6 +27,11 @@ nav{
     color: #BCA0DB;
 }
 
+.nav-link:hover{
+    color: #BCA0DB;
+    font-weight: 700;
+}
+
 .pray-btn{
     background-color:#BCA0DB;
     color: black;
@@ -34,7 +39,7 @@ nav{
 
 .pray-btn:hover{
     background-color:#3C1361 ;
-    color: #BCA0DB;
+    color: #fff;
 }
 
 /* HERO */

@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="css/int-submit.css">
-    
+    <link rel="stylesheet" href="css/dontate.css">
     <title>Document</title>
 </head>
 <body>
@@ -24,51 +22,70 @@
                 <a class="nav-link"  href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="about.html">About</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="intentions.html">Intentions</a>
+                <a class="nav-link" href="intentions.html">Intentions</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Donate</a>
+                <a class="nav-link active" aria-current="page" href="donate.html">Donate</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Testimonies</a>
-              </li>
+              </li>  
             </ul>
             
           </div>
         </div>
     </nav>
 
-    <!-- Main -->
-    <div class="previous-page">
+    <!-- MAIN -->
+    <div class="main">
         <div class="container">
-            <a href="intentions.html" class="text-black text-decoration-none"><i class="fa-solid fa-arrow-left text-black mt-5 ms-3 me-2"></i>Go back to previous page</a>
+            <div class="main-wrapper">
+                <h3 class="mb-4 fw-bold">Works of Charity</h3>
+                <h5 class="mb-4">Please fill the form below to send in your donations</h5>
+                <div class="form">
+                    <label for="org" class="d-block">Charity Organization:</label>
+                    <select name="charity" class="select1" id="charity">
+                        <option value="" class="moh">Works of Charity</option>
+                        <option value="" class="moh">Sisters of Charity</option>
+                        <option value="" class="moh">MO Motherless Babies</option>
+                        <option value="" class="moh">Joke Teen Orphanage</option>
+                        <option value="" class="moh">Rhema Windows</option>
+                        <option value="" class="moh">Welfare for the lost</option>
+                        <option value="" class="moh">Miracle Orphans Home</option>
+                        <option value="" class="moh">Candlelight Welfare</option>
+                        <option value="" class="moh">Success Provisional Center</option>
+                        <option value="" class="moh">Others</option>
+                    </select>
+                    <div class="Amount">
+                        <label for="peitioner" class="d-block">Amount per Day</label>
+                        <input type="number" class="amount" placeholder="NGN0.00">
+                    </div>
+                </div>
+                <p class="code fw-bold fs-5">Unique Code: LM4qr567FGH</p>
+                <div class="payment-details mt-2">
+                    <div class="details-wrapper">
+                        <p class="fw-bold fs-5">Please include the unique code indicated above in your narration for verification purposes. Kindly confirm you have the right account before sending;</p>
+                        <p>Sisters of Charity Account Details </p>
+                        <p>Account Number: 003567896489</p>
+                        <p>Account Name: Sisters of charity NGO</p>
+                        <p>Bank Name: Zenith Bank</p>
+                    </div>
+                </div>
 
-            <div class="successfully">
-                <h2 class="text-center mt-5">Your intentions have been submitted successfully!</h2>
+                <label for="receipt" class="recipt d-block mt-3 mb-2">Receipt of Payment</label>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Upload Receipt" aria-label="Receipt" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">Upload</span>
+              </div>
             </div>
         </div>
     </div>
 
-    <div class="check">
-        <div class="container">
-            <div class="big-check d-flex align-items-center justify-content-center">
-                <img src="img/big_check.gif" class="img-fluid" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="two-btns">
-        <div class="container">
-            <div class="review-intention d-flex align-items-center justify-content-center mt-4">
-                <a href="rev-int.html" class="text-decoration-none fw-bold">REVIEW INTENTION <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-            </div>
-            <div class="another-intention d-flex align-items-center justify-content-center mt-4">
-                <a href="intentions.html" class="text-decoration-none fw-bold">SEND ANOTHER INTENTION <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-            </div>
-        </div>
+    <div class="submit-intention d-flex align-items-center justify-content-center mt-5">
+        <a href="intentions.html" class="text-decoration-none fw-bold">DONATE</a>
     </div>
 
     <!-- FOOTER -->
@@ -79,7 +96,7 @@
           </div>
         </div>
       </section>
-
+  
       <footer>
         <div class="container">
           <div class="footer-wrapper d-flex justify-content-between align-items-center py-4">
@@ -110,5 +127,6 @@
           </div>
         </div>
       </footer>
+    
 </body>
 </html>

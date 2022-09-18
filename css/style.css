@@ -19,8 +19,12 @@ nav{
 
 .nav-item{
     margin-right: 33px;
-    font-size: 16px;
-    
+    font-size: 16px;  
+}
+
+.nav-link:hover{
+    color: #BCA0DB;
+    font-weight: 700;
 }
 
 .nav-link{
@@ -34,7 +38,7 @@ nav{
 
 .pray-btn:hover{
     background-color:#3C1361 ;
-    color: #BCA0DB;
+    color: #fff;
 }
 
 /* SLIDER */
@@ -67,13 +71,14 @@ nav{
     border: 1px white solid;
     color: #F5F5F5;
     text-decoration: none;
-    padding: 7px 45px;
+    padding: 12px 80px;
     border-radius: 5px;
 }
 
 .learn a:hover{
-    background-color: rgba(60, 19, 97, 0.5);
-    color: #fff;
+    background-color:#3C1361;
+    color: #BCA0DB;
+    border: 2px solid #3C1361;
 }
 
 /* HERO */

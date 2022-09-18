@@ -18,13 +18,8 @@ nav{
 }
 
 .nav-item{
-    margin-right: 26px;
-    font-size: 16px;
-    
-}
-
-.nav-link{
-    color: #BCA0DB;
+    margin-right: 33px;
+    font-size: 16px;  
 }
 
 .nav-link:hover{
@@ -32,8 +27,11 @@ nav{
     font-weight: 700;
 }
 
+.nav-link{
+    color: #BCA0DB;
+}
 
-/* Main */
+/* MAIN */
 
 .previous-page i{
     background-color: #BCA0DB;
@@ -41,64 +39,37 @@ nav{
     border-radius: 5px;
 }
 
-.two-btns{
-    margin-top: 30px;
+.current-intention{
+    margin-top: 70px;
 }
 
-.review-intention a{
-    background-color: #BCA0DB;
-    padding: 9px 170px;
-    color: #000;
-    font-size: 1.20rem;
-    border-radius: 5px;
-    outline: none;
-    position: relative; 
-     transition: 0.2s;
-  }
+.current{
+    margin-left: 220px;
+}
 
-  .review-intention a:hover{
-    background-color: #fff;
-    border: 2px solid #3C1361;
-    outline: none;
+.intention-box{
+    background-color: #DBD4D4;
+    width: 60%;
+    margin: auto;
+    padding: 25px 70px;
+}
+
+.intention-box h3{
     color: #3C1361;
-  }
+}
 
-  
-    
-    
- 
-    
+.intention-box p{
+    color:rgba(0, 0, 0, 0.5);
+    margin-left: 60px;
+    font-weight: bold;
+}
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* STOP */
-
-  .another-intention a{
+.submit-intention a{
     background-color: #3C1361;
-    padding: 9px 130px;
+    padding: 9px 170px;
     color: #fff;
     font-size: 1.20rem;
     border-radius: 5px;
-  }
-
-  /* .another-intention i{
-    opacity: 0;
-  } */
-
-  .another-intention a:hover{
-    opacity: 1;
   }
 
   /* FOOTER */
