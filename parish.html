@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="css/int-submit.css">
-    
+    <link rel="stylesheet" href="css/parish.css">
     <title>Document</title>
 </head>
 <body>
@@ -27,7 +26,7 @@
                 <a class="nav-link"  href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="intentions.html">Intentions</a>
+                <a class="nav-link" aria-current="page" href="intentions.html">Intentions</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="donate.html">Donate</a>
@@ -41,32 +40,72 @@
         </div>
     </nav>
 
-    <!-- Main -->
+    <!-- MAIN -->
     <div class="previous-page">
         <div class="container">
-            <a href="intentions.html" class="text-black text-decoration-none"><i class="fa-solid fa-arrow-left text-black mt-5 ms-3 me-2"></i>Go back to previous page</a>
+            <a href="index.html" class="text-black text-decoration-none"><i class="fa-solid fa-arrow-left text-black mt-4 me-2"></i>Go back to previous page</a>
 
-            <div class="successfully">
-                <h2 class="text-center mt-5">Your intentions have been submitted successfully!</h2>
+            <div class="locator mt-4">
+                <h4 class="fw-bold">PARISH LOCATOR</h4>
+                <h6 class="text-black">Search for the parish you would like to locate and view other relevant information</h6>
             </div>
-        </div>
-    </div>
 
-    <div class="check">
-        <div class="container">
-            <div class="big-check d-flex align-items-center justify-content-center">
-                <img src="img/big_check.gif" class="img-fluid" alt="">
+            <div class="parish mt-4">
+                <h5>Parish:</h5>
+                <select name="parish" id="parish" class="parish-select">
+                    <option value="">Select Parish</option>
+                    <option value="">St. Peters Parish, Obanikoro</option>
+                    <option value="">St. Peters Parish, Mushin</option>
+                    <option value="">St. Peters Parish, Oregun</option>
+                </select>
+                <div class="parish-name">
+                    <input type="text" placeholder="Search by locator or parish name">
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="two-btns">
-        <div class="container">
-            <div class="review-intention d-flex align-items-center justify-content-center mt-4">
-                <a href="rev-int.html" class="text-decoration-none fw-bold">REVIEW INTENTION <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            <div class="search d-flex align-items-center justify-content-center mt-4">
+                <a href="rev-int.html" class="text-decoration-none fw-bold">SEARCH PARISH</a>
             </div>
-            <div class="another-intention d-flex align-items-center justify-content-center mt-4">
-                <a href="intentions.html" class="text-decoration-none fw-bold">SEND ANOTHER INTENTION <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+
+            <div class="intention-box mt-5">
+                <p class="h1 fs-4 fw-bold text-center">St. Peters Parish, Obanikoro</p>
+                <div class="intention-content">
+                    <table class="">
+                        <tr class="py-5">
+                          <th>Days of Mass</th>
+                          <th>Time</th>
+                        </tr>
+                        <tr>
+                          <td>Sundays</td>
+                          <td>First Mass - 6am, Second Mass - 7:30am, Third Mass - 9:00am, Fourth Mass - 10:30am, Fifth Mass - 12pm</td>
+                        </tr>
+                        <tr>
+                          <td>Weekdays</td>
+                          <td>Mondays, Wednesdays and Fridays Morning Mass - 6:00am, Evening Mass - 7:30pm</td>
+                        </tr>
+
+                        <tr>
+                            <th>Confession Days</th>
+                            <th>Time</th>
+                          </tr>
+                          <tr>
+                            <td>Sundays</td>
+                            <td>First Mass - 6am, Second Mass - 7:30am, Third Mass - 9:00am, Fourth Mass - 10:30am, Fifth Mass - 12pm</td>
+                          </tr>
+                          <tr>
+                            <td>Weekdays</td>
+                            <td>Wednesdays and Fridays <br> Morning Mass - 6:00am, Evening Mass - 7:30pm</td>
+                          </tr>
+
+                          <tr>
+                            <th>Parish Office Hours</th>
+                          </tr>
+                          <tr>
+                            <td>Sundays & Weekdays</td>
+                            <td>12pm - 5pm daily</td>
+                          </tr>
+                      </table>           
+                </div>
             </div>
         </div>
     </div>
@@ -110,5 +149,7 @@
           </div>
         </div>
       </footer>
+    
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

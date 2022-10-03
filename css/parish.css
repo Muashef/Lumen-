@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #3C1361;
+    height: 80px;
+}
+
+.navbar-brand{
+    color:#BCA0DB;
+}
+
+
+.nav-item{
+    margin-right: 26px;
+    font-size: 16px;
+    
+}
+
+.nav-link{
+    color: #BCA0DB;
+}
+
+.nav-link:hover{
+    color: #BCA0DB;
+    font-weight: 700;
+}
+
+/* MAIN */
+
+.previous-page i{
+    background-color: #BCA0DB;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.locator{
+    margin-left: 150px;
+}
+
+.locator h4{
+    color: #3C1361;
+}
+
+.parish{
+    margin-left:240px;
+}
+
+.parish-select{
+    width: 80%;
+    padding: 7px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #9747FF;
+    outline: none;
+  }
+
+  input[type="text"]{
+    width:80%;
+    padding:7px 12px ;
+    outline: none;
+    border: 1px solid #9747FF;
+  }
+
+  .search a{
+    background-color: #3C1361;
+    padding: 9px 130px;
+    color: #fff;
+    font-size: 1.20rem;
+    border-radius: 5px;
+  }
+
+  .intention-box{
+    background-color: #BCA0DB;
+    width: 70%;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+.intention-box .h1{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* FOOTER */
+section{
+    background-color: #EEDFFF;
+    margin-top: 120px;
+  }
+
+  .mini-footer p{
+    font-size:0.80rem;
+  }
+
+  footer{
+    background-color: #BCA0DB;
+    color: #3C1361;
+}
+
+.footer-wrapper a{
+    color: #3C1361;
+}
+
+.divider {
+    border-right: 2px solid #3C1361;
+  }
+
+  .lg {
+    height: 100px;
+  }

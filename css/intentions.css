@@ -50,6 +50,7 @@ input[type=text]{
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #9747FF;
+    outline: none;
   }
 
   .select1{
@@ -58,6 +59,7 @@ input[type=text]{
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #9747FF;
+    outline: none;
   }
 
   .fname{
@@ -70,6 +72,7 @@ input[type=text]{
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #9747FF;
+    outline: none;
   }
 
   .select2{
